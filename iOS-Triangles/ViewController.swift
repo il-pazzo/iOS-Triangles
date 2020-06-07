@@ -10,11 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var triangleView: TriangleView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func toggleReveal(_ sender: UIButton) {
+        
+        triangleView.toggleReveal()
+        triangleView.setNeedsDisplay()
+    }
+    
+    override func viewWillTransition( to size: CGSize,
+                                      with coordinator: UIViewControllerTransitionCoordinator) {
+        
+        // if they rotate the display, redraw the view
+        triangleView.setNeedsDisplay()
+    }
 }
 

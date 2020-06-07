@@ -15,6 +15,7 @@
 		BB6DFECF248CC54500429AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6DFECD248CC54500429AF1 /* LaunchScreen.storyboard */; };
 		BB6DFEDA248CC54500429AF1 /* iOS_TrianglesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DFED9248CC54500429AF1 /* iOS_TrianglesTests.swift */; };
 		BB6DFEE5248CC54500429AF1 /* iOS_TrianglesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DFEE4248CC54500429AF1 /* iOS_TrianglesUITests.swift */; };
+		BB6DFEF3248CC61E00429AF1 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DFEF2248CC61E00429AF1 /* TriangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BB6DFEE0248CC54500429AF1 /* iOS-TrianglesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-TrianglesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6DFEE4248CC54500429AF1 /* iOS_TrianglesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_TrianglesUITests.swift; sourceTree = "<group>"; };
 		BB6DFEE6248CC54500429AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6DFEF2248CC61E00429AF1 /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				BB6DFEC2248CC54400429AF1 /* AppDelegate.swift */,
 				BB6DFEC4248CC54400429AF1 /* SceneDelegate.swift */,
 				BB6DFEC6248CC54400429AF1 /* ViewController.swift */,
+				BB6DFEF2248CC61E00429AF1 /* TriangleView.swift */,
 				BB6DFEC8248CC54400429AF1 /* Main.storyboard */,
 				BB6DFECB248CC54500429AF1 /* Assets.xcassets */,
 				BB6DFECD248CC54500429AF1 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				BB6DFEC7248CC54400429AF1 /* ViewController.swift in Sources */,
 				BB6DFEC3248CC54400429AF1 /* AppDelegate.swift in Sources */,
+				BB6DFEF3248CC61E00429AF1 /* TriangleView.swift in Sources */,
 				BB6DFEC5248CC54400429AF1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
